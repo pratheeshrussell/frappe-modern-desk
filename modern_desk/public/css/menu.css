@@ -1,0 +1,26 @@
+.no-click{
+    cursor:default !important;
+}
+
+.hide-side-section{
+    display: none !important;
+}
+
+.widget.menu-widget{
+    background-color: #d4daf9;
+    margin: 20px;
+}
+
+.widget-title .widget-title-text{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.menu-widget:hover .widget-title .widget-title-text {
+    color: var(--gray-100);
+    text-decoration: none;
+}
+
+.menu-open-btn{
+    margin-right: var(--margin-sm);
+}
